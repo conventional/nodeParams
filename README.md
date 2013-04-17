@@ -1,4 +1,7 @@
 nodeParams
 ==========
 
-get params send from command line
+get params sent from command line via hash
+
+    var nodeParams = require("./nodeParams");
+    var params = nodeParams.get();
